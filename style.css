@@ -86,3 +86,54 @@ body {
 p {
     text-align: justify;
 }
+
+.first-image {
+    width: 1120px;
+    height: 350px;
+    border-radius: 28px;
+    object-fit: cover;
+    object-position: center;
+
+    margin-top: 64px;
+    margin-bottom: 20px;
+}
+
+.ol-li {
+    padding-left: 20px;
+}
+
+.ul-li {
+    padding-left: 17px;
+    /* 
+        Quando se cria uma lista ordenada, o ponto, por padrão, surge com um padding-left, que
+        precisa ser alterado. Se se zerar este padding, o ponto sairá da margem.
+    
+    */
+}
+
+.bom-para {
+    color: #0C51A7;
+}
+
+.second-image {
+    width: 1120px;
+    height: 350px;
+    border-radius: 28px;
+    object-fit: cover;
+    object-position: bottom;
+
+    margin-top: 64px;
+    margin-bottom: 20px;
+
+} 
+
+.third-image {
+    width: 1120px;
+    height: 350px;
+    border-radius: 28px;
+    object-fit: cover;
+    object-position: 20% 64%;
+
+    margin-top: 64px;
+    margin-bottom: 20px;
+}
