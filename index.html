@@ -9,7 +9,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
     <title>Local Turístico</title>
 
@@ -18,66 +18,90 @@
 <body>
     
     <div id="container">
-        <div id="title page">
+
+        <header id="title page">
             
             <h4 class="headline-1">
                 SUA PRÓXIMA VIAGEM:
             </h4>
             
             <h1 id="title-H1"> Conheça Belém</h1>
-            
-            
-        </div id="description+image">
-            <img class="main-image" src="./assets/pexels-carolina-evangelista-102495683-9432449 - Copia.jpg" alt="Foto do Ver-o-Peso ao entardecer.">
-            <p class="image-description">
-                Belém, Cidade das Mangueiras e porta de entrada da Amazônia, oferece de tudo, de restaurantes de 
-                cozinha paraense a tradicionais barracas de comida nos mercados populares. Aqui, exploramos a 
-                capital do Pará e descobrimos a riqueza de seus sabores amazônicos.
-            </p>
 
-        <div id="content-list">
+        <!-- SECTION TEM QUE ACOMPANHAR OS TÍTULOS h1, h2, h3... -->
+        
+        <figure class="figure">
+            <span>
+                <img class="main-image" class="image" src="./assets/pexels-carolina-evangelista-102495683-9432449 - Copia.jpg" alt="Foto do Ver-o-Peso ao entardecer.">
+            </span>
+                
+            <figcaption class="copyright">&copy; Carolina Evangelista 2021</figcaption>
+        </figure>
 
-            <div class="divisor"></div>
+        <p class="image-description">
+            Belém, Cidade das Mangueiras e porta de entrada da Amazônia, reúne natureza, 
+            patrimônio histórico e cultura às margens da Baía do Guajará. Ao explorar a 
+            capital do Pará, descobrimos três lugares que revelam faces da identidade e 
+            da cultura paraenses.
+        </p>
 
-            <div class="title-list">
-                <div class="title">
-                    <h4 class="headline-2">PARA OS AMANTES DE HISTÓRIA</h4>
-                    <h2 class="title-h2">Descubra 3 destinos imperdíveis em Belém</h2>
+        </header>
 
-                    <p>
-                        As atrações de Belém vão desde mercados históricos repletos de aromas e sabores amazônicos 
-                        até parques que preservam a fauna e a flora regionais. Esta cidade banhada por rios tem 
-                        experiências para oferecer o ano todo — as famílias podem conhecer museus, os visitantes 
-                        podem explorar feiras movimentadas e os amantes da natureza podem contemplar a Baía do 
-                        Guajará em passeios pela orla. Os casarões coloniais, os palácios da Belle Époque e os 
-                        antigos armazéns portuários de Belém formam uma arquitetura singular que irá encantar os 
-                        fotógrafos.        
-                    </p>
+        
+        <section id="tourist-attractions">
 
-                </div>
-            </div>
+            <div id="content-list">
+                
+                <div class="divisor"></div>
+                
+                <section class="title-list">
+                    <div class="title">
+                        <h4 class="headline-2">PARA OS AMANTES DA AMAZÔNIA</h4>
+                        <h2 class="title-h2">Descubra 3 destinos imperdíveis em Belém</h2>
+
+                        <p>
+                            As atrações de Belém reúnem natureza, patrimônio portuário e 
+                            arquitetura monumental. No Mangal das Garças, visitantes podem 
+                            observar de perto a fauna e a flora amazônicas entre lagos, 
+                            viveiros e jardins. Às margens da Baía do Guajará, a Estação 
+                            das Docas transforma antigos armazéns do porto em um espaço dedicado 
+                            à cultura, à gastronomia e aos eventos. Na Praça da República, o 
+                            Theatro da Paz preserva a memória do ciclo da borracha por meio da 
+                            arquitetura neoclássica e dos interiores, capazes de encantar 
+                            visitantes e fotógrafos.        
+                        </p>
+
+                    </div>
+                </section>
 
 
-            <div class="list">
+                <div class="list">
 
-                <div class="card-travel">
-                    <img class="first-image" src="./assets/Mangal das Garças 1.jpeg" alt="Fotografia do Mangal das Garças">
+                    <section class="mangal-das-garcas">
 
-                    <div class="content-class">
+                        <figure class="figure">
+                            <span>
+                                <img class="first-image" src="./assets/Mangal das Garças 1.jpeg" alt="Fotografia do Mangal das Garças">
+                            </span>
+
+                                
+                            <figcaption class="copyright">&copy; Fernando Ralfer</figcaption>
+                        </figure>
+
                         <h3>
                             <ol class="ol-li">
                                 <li>
-                                     Mangal das Garças
+                                    Mangal das Garças
                                 </li>
                             </ol>
-                           
+                            
                         </h3>
 
                         <p>
                             O Mangal das Garças é um parque zoobotânico localizado na Cidade Velha, em Belém. 
                             Com mais de 40 mil metros quadrados, reúne fauna e flora amazônicas entre lagos, 
                             viveiros e jardins – você pode observar aves de perto e contemplar a paisagem do alto 
-                            do mirante.
+                            do mirante. Para mais informações, visite o site oficial do
+                            <a href="https://mangaldasgarcas.com.br/"><Strong>Mangal das Garças</Strong></a>. <!--ATENÇÃO PARA O PONTO AO FINAL-->
                             <br>
                             <br>
                             <Strong>Bom para:</Strong>
@@ -85,89 +109,135 @@
                                 <span>
                                     <ul class="ul-li">
                                         <li>
-                                        
-                                            <span class="bom-para"><Strong>Natureza</Strong></span>
                                             
+                                            <span class="bom-para"><Strong>Natureza</Strong></span>
+                                                
                                         </li>
                                     </ul>
                                 </span>
                             </span>
+                                
+                        </p>
+                    </section>
+
+                    
+
+                    <section class="Estacao-das-Docas">
+                        <figure class="figure">
+                            <span>
+                                <img class="second-image" src="./assets/Estação das Docas 3.jpeg" alt="Fotografia da Estação das Docas">
+
+                            </span>
                             
-                        </p>
-                    </div>
+                            <figcaption class="copyright">&copy; Brarymi</figcaption>
+                        </figure>
 
-                </div>
 
-                <div class="card-travel">
-                    <img class="second-image" src="./assets/Estação das Docas 3.jpeg" alt="Fotografia da Estação das Docas">
-                    <div class="content-card">
-                        <h3>
-                            <ol start="2" class="ol-li">
-                                <li>
-                                    Estação das Docas
-                                </li>
-                            </ol>
-                        </h3>
+                        <div class="content-card">
+                            <h3>
+                                <ol start="2" class="ol-li">
+                                    <li>
+                                        Estação das Docas
+                                    </li>
+                                </ol>
+                            </h3>
 
-                        <p>
-                            A Estação das Docas é um dos principais complexos turísticos e culturais de Belém. 
-                            Localizada às margens da Baía do Guajará, ocupa antigos armazéns do porto da cidade. 
-                            A arquitetura industrial preservada abriga restaurantes, espaços culturais e eventos 
-                            com vista privilegiada para a orla fluvial.
-                            <br>
-                            <br>
-                            Bom para:
-                            <ul class="ul-li">
-                                <li>
-                                    <span class="bom-para"><Strong>Cultura</Strong></span>
-                                </li>
-                            </ul>
+                            <p>
+                                A Estação das Docas é um dos principais complexos turísticos e culturais de Belém. 
+                                Localizada às margens da Baía do Guajará, ocupa antigos armazéns do porto da cidade. 
+                                A arquitetura industrial preservada abriga restaurantes, espaços culturais e eventos 
+                                com vista privilegiada para a orla fluvial. Para mais informações, visite o site oficial da
+                                <a href="https://www.estacaodasdocas.com/"><Strong>Estação das Docas</Strong></a>.
+                                <br>
+                                <br>
+                                Bom para:
+                                <ul class="ul-li">
+                                    <li>
+                                        <span class="bom-para"><Strong>Cultura</Strong></span>
+                                    </li>
+                                </ul>
 
-                        </p>
-                    </div>
+                            </p>
+                        </div>
 
-                </div>
+                    </section>
 
-                <div class="card-travel">
-                    <img class="third-image" src="./assets/Teatro da Paz 1.jpeg" alt="Fotografia do Teatro da Paz">
-                    <div class="content-card">
-                        <h3>
-                            <ol start="3" class="ol-li">
-                                <li>
-                                    Teatro da Paz
-                                </li>
-                            </ol>
-                        </h3>
+                    <section class="Teatro-da-Paz">   
 
-                        <p>
-                            O Theatro da Paz, localizado na Praça da República, é um dos monumentos mais 
-                            importantes de Belém. Inaugurado em 1878, durante o ciclo da borracha, destaca-se 
-                            pela arquitetura neoclássica e pela riqueza da decoração interna. O salão principal 
-                            apresenta lustres, pinturas e um imponente pano de boca – observe também os elementos 
-                            da fauna e da flora amazônicas representados no teto.
-                            <br>
-                            <br>
-                            Bom para:
-                            <ul class="ul-li">
-                                <li>
-                                    <span class="bom-para"><Strong>História</Strong></span>
-                                </li>
-                                
-                                <li>
-                                    <span class="bom-para"><Strong>Cultura</Strong></span>
-                                </li>
-                                
-                                <li>
-                                    <span class="bom-para"><Strong>Arquitetura</Strong></span>
-                                </li>
-                            </ul>                     
-                        </p>
-                    </div>
+                        <figure class="figure">
+                            <span>
+                                <img class="third-image" src="./assets/Teatro da Paz 1.jpeg" alt="Fotografia do Teatro da Paz">      
+                            </span>
+
+                            <figcaption class="copyright">&copy; Toninho Castro</figcaption>
+                        </figure>
+
+                        
+                        <div class="content-card">
+                            <h3>
+                                <ol start="3" class="ol-li">
+                                    <li>
+                                        Teatro da Paz
+                                    </li>
+                                </ol>
+                            </h3>
+
+                            <p>
+                                O Theatro da Paz, localizado na Praça da República, é um dos monumentos mais 
+                                importantes de Belém. Inaugurado em 1878, durante o ciclo da borracha, destaca-se 
+                                pela arquitetura neoclássica e pela riqueza da decoração interna. O salão principal 
+                                apresenta lustres, pinturas e um imponente pano de boca. Para mais informações, visite
+                                o site oficial do
+                                <a href="https://www.theatrodapaz.com.br/"><Strong>Teatro da Paz</Strong></a>
+                                <br>
+                                <br>
+                                Bom para:
+                                <ul class="ul-li">
+                                    <li>
+                                        <span id="history" class="bom-para"><Strong>História</Strong></span>
+                                    </li>
+                                    
+                                    <li>
+                                        <span id="culture" class="bom-para"><Strong>Cultura</Strong></span>
+                                    </li>
+                                    
+                                    <li>
+                                        <span id="architecture" class="bom-para"><Strong>Arquitetura</Strong></span>
+                                    </li>
+                                </ul>                     
+                            </p>
+                        </div>
+                    </section>
+
                 </div>
 
             </div>
 
-        </div>
+            <div class="divisor"></div>
+
+        </section>
+
+        <footer>
+
+            <p id="footers-description" class="description">
+                As melhores experiências em Belém revelam a importância da capital paraense 
+                como histórica porta de entrada da Amazônia. Marcada pelo encontro entre rios, 
+                patrimônio e natureza, Belém apresenta paisagens nas quais a biodiversidade 
+                amazônica encontra a memória portuária e a história preservada na arquitetura, 
+                inspirando novas descobertas durante todo o ano.
+
+            </p>
+
+            <div class="footers-signature">
+                <span class="signature">Feito com</span>
+                <img class="heart-icon" src="./assets/Vector.svg" alt="heart icon">
+                <span class="signature">por um aluno Rocketseat</span>
+                <div id="programmers-copyright">&copy; Hugo D. Brasil (2026)</div>
+
+            </div>
+            
+        </footer>
+
 
     </div>
     
