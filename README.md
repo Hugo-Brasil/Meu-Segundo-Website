@@ -30,8 +30,12 @@
 <p>
   
 Neste projeto, eu aprendi:
-  - 1
-  - 2
+  - A usar as tags `<figure>` e `<figcaption>`, assim como o código símbolo `&copy;` para atribuir os direitos autorais das imagens utilizadas em HTML;
+  - A diferença entre as tags `<div>` e `<section>`: a primeira é genérica e não possui nenhum significado específico, enquanto a segunda possui significado e indica uma seção temática de conteúdo;
+  - A mudar a cor do conteúdo (texto) de uma lista não ordenada sem mudar a cor do ponto;
+  - A começar uma `<ol>` (lista ordenada) a partir de um número desejado utilizando o atributo `start="[número desejado]"`;
+  - A alinhar a `<ol>` incrementando o `padding-left` do elemento HTML;
+  - A usar a propriedade e o valor `object-fit: cover` em CSS;
   
 </p>
 
