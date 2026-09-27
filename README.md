@@ -14,7 +14,7 @@
 
 ## ⚙️ Funcionalidades
 <p align="justify">
-  Esta página não possui funcionalidades, porém apresenta aspectos de estilo (estéticos) relevantes para a confecção de uma página web.
+  Além do hyperlink que redireciona o usuário para os websites oficiais dos pontos turísticos e do flexbox, a página não possui mais funcionalidades. Ainda assim, apresenta aspectos de estilo (estéticos) relevantes para a confecção de uma página web.
 </p>
 
 <br>
