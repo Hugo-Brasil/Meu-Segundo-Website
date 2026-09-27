@@ -20,7 +20,7 @@
 <br>
 
 ## ⏳ O Processo de Criação
-<p>
+<p align="justify">
   O processo de criação relativo a este projeto foi desafiador, uma vez que me propus a não consultar nenhuma aula ou dica do curso, não sendo, portanto, guiado em uma aula pelo professor, tal como no projeto passado. Ao invés disso, fiz, por conta própria, somente quando estritamente necessário, pontualíssimas pesquisas no Google, especialmente quando me deparava com um problema que não me lembrava de ter visto em aula. Ao longo do processo de criação não utilizei Inteligência Artificial (IA) para escrever qualquer linha de código para mim, salvo no que tange ao texto apresentado na página. Neste projeto preferi manter o mesmo layout, cores e funcionalidades do modelo de site proposto no desafio, fazendo pequenas alterações em relação às distâncias entre alguns elementos e à inserção de algumas tags.
 </p>
 
