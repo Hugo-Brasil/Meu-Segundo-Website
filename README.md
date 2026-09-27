@@ -1,4 +1,4 @@
-# 🌎 Meu Primeiro Website
+# 🌎 Minha Segunda Página Web
 <p align="justify">
   Este projeto de página web corresponde ao meu resultado final do desafio prático do nível 3 do curso Full-Stack da 
   Rocketseat. Trata-se de uma Landing Page que apresenta alguns pontos turísticos de Belém do Pará.
@@ -65,6 +65,9 @@ Neste projeto, eu aprendi:
 <br>
 
 ## 🍿 Vídeo
+
+https://github.com/user-attachments/assets/bf165ec8-56ec-4d19-814c-bce3301079dc
+
 
 
 
