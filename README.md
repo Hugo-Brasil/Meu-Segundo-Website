@@ -30,7 +30,8 @@
 <p>
   
 Neste projeto, eu aprendi:
-  -
+  - 1
+  - 2
   
 </p>
 
