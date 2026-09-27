@@ -14,7 +14,7 @@
 
 ## ⚙️ Funcionalidades
 <p align="justify">
-  
+  Esta página não possui funcionalidades, porém apresenta aspectos de estilo (estéticos) relevantes para a confecção de uma página web.
 </p>
 
 <br>
